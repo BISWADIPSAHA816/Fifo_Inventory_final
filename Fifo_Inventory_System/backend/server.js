@@ -5,7 +5,9 @@ const inventoryRoutes = require('./routes/inventoryRoutes');
 const authMiddleware = require('./middleware/auth');
 
 dotenv.config();
-const app = express();
+// const app = express();
+const app = require('./app'); // or your express app
+module.exports = app;
 
 app.use(cors());
 app.use(express.json());
