@@ -1,15 +1,14 @@
-{"builds":[
+{
+  "builds": [
     {
-        "src": "Fifo_Inventory_System/backend/package.json",
-        "use": "@vercel/node"
+      "src": "backend/package.json",
+      "use": "@vercel/node"
     }
-
-],
-"routes": [
+  ],
+  "routes": [
     {
-        "src": "/(.*)",
-        "dest": "Fifo_Inventory_System/backend/server.js"
+      "src": "/(.*)",
+      "dest": "backend/server.js"
     }
-]
+  ]
 }
-    
