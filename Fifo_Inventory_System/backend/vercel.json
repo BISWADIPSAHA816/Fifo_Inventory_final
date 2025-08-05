@@ -8,7 +8,7 @@
 "routes": [
     {
         "src": "/(.*)",
-        "dest": "Fifo_Inventory_System/backend/index.js"
+        "dest": "Fifo_Inventory_System/backend/server.js"
     }
 ]
 }
