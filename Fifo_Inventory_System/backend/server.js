@@ -6,8 +6,8 @@ const authMiddleware = require('./middleware/auth');
 
 dotenv.config();
 // const app = express();
-const app = require('./app'); // or your express app
-module.exports = app;
+const app =express(); // or your express app
+
 
 app.use(cors());
 app.use(express.json());
