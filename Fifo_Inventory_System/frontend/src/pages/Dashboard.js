@@ -10,6 +10,9 @@ function Dashboard() {
     fetchInventory().then(setInventory);
     // fetchLedger().then(setLedger);
   }, []);
+  // useEffect(() => {
+  //   console.log('Inventory data fetched:', inventory);
+  // },[inventory]);
 
   return (
     <div className="dashboard-container">

@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_URL = process.env.REACT_APP_API_URL || 'https://fifo-inventory-final.onrender.com';
 
 export async function fetchInventory() {
   const res = await fetch(`${API_URL}/inventory`);
